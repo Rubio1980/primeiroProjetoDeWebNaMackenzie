@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Tecnologia da Informação</title>
+</head>
+<body>
+    <script> 
+        const greetingMessage = () => { 
+         let h = new Date().toLocaleTimeString('pt-BR', { hour: 'numeric', hour12: false }); 
+         let d = new Date().toLocaleDateString('pt-BR', { weekday: 'long' }); 
+         if (h <= 5) return 'Boa madrugada! Hoje é ' + d; 
+         if (h < 12) return 'Bom dia! Hoje é ' + d; 
+         if (h < 18) return 'Boa tarde! Hoje é ' + d; 
+         return 'Boa noite! Hoje é ' + d; 
+        } 
+       
+        function exibeAlert() { 
+            alert((greetingMessage()) + "\n\n\nSomos a Nick Tecnologia...\n\nO que você precisa saber para entrar no Universo da Programação está aqui!\n\nVamos nessa?"); 
+        } 
+        onload=exibeAlert()
+       </script>
+
+    <header>
+        Nick.Tech
+    </header>
+    <br>
+    <div id="A"> 
+        <h1><i>TUDO SOBRE PROGRAMAÇÃO E TECNOLOGIA</i></h1>
+    </div>
+
+    <p>Olá, leitor(a)!!</p>
+    <p>   
+        Muita gente tem essa curiosidade pelo lado da programação, mas na verdade nem chegam a colocar em prática. 
+        Por isso, resolvemos criar esse site para você que deseja aprender como programar.  
+    </p>
+        <br>
+    <div id="B"> 
+        <img src="imagem7.png" alt="Programação">
+    </div>
+        <br>
+    <p>Programação é algo buscado e disputado no mercado atualmente, as linguagens utilizadas são muitas e o 
+        conhecimento técnico valorizado.</p>
+    <p>Aprender a programar é poder melhorar a vida das pessoas por meio da criação de softwares e aplicativos
+       que resolvam problemas reais da sociedade.</p>  
+    <p>Apesar disso, a mão de obra qualificada ainda é escassa e o mercado passa por modificações, afinal de contas, 
+       não faz tanto tempo que esta profissão é valorizada e exigida.</p>
+    <p>Programar é a chave para o futuro do mercado de trabalho e há diferentes opções para começar a estudar
+       o mundo da programação.</p>
+    <p>Esse sem dúvida é o momento ideal, já que, além de trabalhar com o que gosta, 
+       você está em um mercado que cresce cada vez mais, oferecendo vagas com alguns dos salários mais altos no mundo.  
+    </p>
+    <p>O nosso site vai ajudar você com algumas dicas sobre:</p>
+    <br>
+    <ul>
+        <li>Cursos</li>
+        <li>Notícias</li>
+        <li>Vídeos</li>
+        <li>Informações de Emprego</li>   
+    </ul>
+    <br>
+    <p>Falando nisso, veja a matéria do Portal G1 referente aos Salários em TI e quanto paga cada carreira na área.</p>
+    <br>
+    <div class="site">
+        <a href="https://g1.globo.com/tecnologia/noticia/2022/05/07/salarios-em-ti-veja-quanto-paga-cada-carreira-na-area-segundo-consultoria.ghtml" target="_blank">Portal G1 - Salários em TI</a>
+    </div>
+    <br>
+    
+    <p>O que acharam da matéria, interessante não é?</p>
+    <p>Assista o vídeo abaixo e descubra por onde começar a programar.</p>
+    
+    <br>
+    <div id="C"> 
+        <iframe width="600" height="300" src="https://www.youtube.com/embed/LSVh4q59eXI" title="Por onde começar a programar? Dicas e Conselhos!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>   
+    <br>
+    <p>E aí, gostou do nosso conteúdo?</p>
+    <p>Então, se quer saber mais, clique no link abaixo para conhecer os cursos gratuitos que disponibilizamos
+       para você.</p>
+    <br>
+    <br>
+    <footer>    
+        <script>
+            var nome = "Nick Tecnologia";
+            document.write  (nome+"<br>");
+            var twitter = "Twitter: @nicktech2022";
+            document.write (twitter+"<br>");
+            var facebook = "Facebook: @nicktech2022";
+            document.write (facebook+"<br>");
+            var instagram = "Instagram: @nicktech2022";
+            document.write (instagram+"<br>");
+            var linkedIn = "LinkedIn: @nicktech2022";
+            document.write (linkedIn+"<br>"); 
+            var local = "Localização - São Paulo";
+            document.write (local+"<br>");
+        </script>
+    </footer> 
+    <br>
+    <br>
+    <div class="pagina1">   
+        <a href="pagina02.html">Próxima página</a>
+    </div>
+    <br> 
+</body>
+</html>

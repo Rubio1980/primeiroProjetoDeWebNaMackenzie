@@ -1,0 +1,218 @@
+
+body {
+    background-image: url(./abstrato46.jpg);
+    margin: 0;
+    padding: 0px;
+
+
+}
+
+header {
+    font-family: garamond, serif;
+    font-size: 50px;
+    padding-left: 40px;
+    padding: 8px;
+    color: white;
+    background-color: #333;
+    border-bottom: 5px solid#fd8a24;
+}
+
+#A,
+#B,
+#C,
+#D,
+#E {
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px grey;
+    color: black;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 16px;
+}
+
+p {
+    font-size: normal;
+    font-family: Verdana;
+    font-size: 20px;
+    color: #333;
+    text-indent: 25px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: circle;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: blue;
+}
+
+.site {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #fd8a24;
+    cursor: pointer;
+}
+
+.pagina1 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    text-decoration-color: blue;
+    text-align: left;
+}
+
+.faleconosco {
+    background-color: rgba(210, 210, 210, 0.5);
+    text-align: center;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.pagina2 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    text-decoration-color: blue;
+    text-align: left;
+    margin: 10px;
+}
+
+.pagina3 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    text-decoration-color: blue;
+    text-align: left;
+    margin: 10px;
+
+}
+
+fieldset {
+    font-size: 15px;
+    font-style: italic;
+}
+
+textarea {
+    font-size: 16px;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    background-color: #fd8a24;
+}
+
+footer {
+    margin-right: 5px;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    padding-right: 5px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    body {
+        width: 100%;
+    }
+
+    header {
+        font-size: 1.5625em;
+    }
+
+    h1 {
+        font-size: 0.9375em;
+    }
+
+    h4 {
+        font-size: 0.5em;
+    }
+
+    img {
+        max-width: 70%;
+    }
+
+    ul {
+        font-size: 0.78125em;
+    }
+
+    .site {
+        font-size: 1.09375em;
+    }
+
+    .faleconosco{
+        max-width: 500px;
+        width: 30%;
+        text-align: center;
+        font-size: 12px;
+        margin-left: 33%;
+        margin-right: 50%;
+    }
+
+    iframe {
+        max-width: 70%;
+        max-height: auto;
+    }
+
+    p {
+        font-size: 0.625em;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .pagina1 {
+        font-size: 0.625em;
+    }
+
+    .pagina2 {
+        font-size: 0.625em;
+    }
+
+    .pagina3 {
+        font-size: 0.625em;
+    }
+
+    fieldset {
+        font-size: 11px;
+        font-style: italic;
+    }
+
+    .mensagem textarea{
+        resize: vertical;
+        max-width: 500px;
+        width: 100%;
+        font-size: 10px;
+        font-style: italic;
+    }
+
+    footer {
+        font-size: 10.5px;
+        padding-right: 5px;
+
+    }
+    
+}
